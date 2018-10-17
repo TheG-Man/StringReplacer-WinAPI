@@ -4,6 +4,7 @@
 #include <iostream>
 #include <string>
 #include <algorithm>
+#include <vector>
 
 INT __declspec(dllexport) WINAPI replaceStringInCurrentProcess(LPCSTR needle, LPCSTR replacement);
 
